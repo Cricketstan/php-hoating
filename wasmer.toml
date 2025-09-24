@@ -1,0 +1,10 @@
+[package]
+name = "m3u8-proxy"
+version = "0.1.0"
+description = "PHP HLS proxy with Webshare.io support"
+
+[dependencies]
+php = "8.2"
+
+[commands]
+start = "php -S 0.0.0.0:8080 index.php"
